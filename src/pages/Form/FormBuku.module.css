@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+button,input[type=submit] {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+button  :hover, input[type=submit] :hover{
+    cursor : pointer;
+}
+
+.buttonSubmit, input[type=submit]{
+    margin-right: 10px;
+    background: green;
+    border-color: green;
+    color: white;
+}
+
+.buttonSubmit:hover, input[type=submit]  :hover{
+background: transparent;
+color : green;
+}
+
+.buttonReset{
+    background: red;
+    border-color: red;
+    color: white;
+}
+
+.buttonSubmit:hover{
+    background: transparent;
+    color : red;
+}
+
+.errorMessage{
+    color: red;
+}
